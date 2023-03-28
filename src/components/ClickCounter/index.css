@@ -1,0 +1,41 @@
+.counter-container {
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+.span-element {
+  color: #c20a72;
+  font-weight: 700;
+}
+.description {
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 22px;
+  }
+}
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+}
